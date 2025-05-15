@@ -1,8 +1,13 @@
 function insert_Row() {
     //Write your code here
 	 const table = document.getElementById("sampleTable");
-let div = document.createElement("div");
-	console.log("div 3"+ insert_Row)
+let tr = document.createElement("tr");
+	let td=document.createElement("td");
+	let tdd=document.createElement("td");
+	
+	
+	
+	
       const rowCount = table.rows.length;
       const newRow = table.insert_Row();
 
